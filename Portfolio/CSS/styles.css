@@ -1,0 +1,264 @@
+/* 
+    @author: Aya Shibbi
+    E-mail: ayashibbi@gmail.com
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    flex: 1;
+    text-align: left;
+}
+
+.header-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 18px;
+    color: #666;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.heading {
+    padding-top: 100px;
+}
+
+.name {
+    margin-bottom: 30px;
+}
+
+.profile {
+    height: 400px;
+}
+
+/* About section styles */
+.about {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about_me {
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+/* Skills section styles */
+.skills {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skills ul li {
+    padding-top: 35px;
+}
+
+.img2 {
+    padding-left: 100px;
+}
+
+/* Progress bars for skills */
+.progress {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Projects section styles */
+.projects {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-form label {
+    font-size: 18px;
+}
+
+.contact-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-icons {
+    flex: 1;
+}
+
+.contact-icons a {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.contact-links {
+    padding-top: 100px;
+}
+
+.contact-item {
+    margin-bottom: 40px;
+    background-color: #f4d3be;
+    border-radius: 30px;
+}
+
+.img3 {
+    margin-top: -120px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #d0d1d2;
+    color: #666564;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Back to top button styles */
+.backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
